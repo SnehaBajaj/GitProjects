@@ -1,72 +1,44 @@
-
 /********** Base styles **********/
 * {
-  box-sizing: border-box;
-  font-family: Helvetica;
+    box-sizing: border-box;
+    font-family: Helvetica;
 }
+
 h1 {
-  margin-bottom: 15px;
-  text-align: center;
+    margin-bottom: 15px;
 }
 
 #p1, #p2, #p3 {
-  border: 1px solid black;
-  background-color: #A52A2A;
-  height: 150px;
-  margin: 5px;
-  color: white;
-  overflow: auto;
-}
-
-#sectitle {
-  float: right;
-  text-align: center;
-  padding: 1%;
-  background-color: #D52D2D;
-  width: 30%;
-  height: 20%;
+    border: 1px solid black;
+    background-color: #A52A2A;
+    margin: 5px;
+    color: white;
+    overflow: auto;
 }
 
 #secinfo {
-  margin: 10px;
+    margin: 10px;
 }
 
 /* Simple Responsive Framework. */
 .row {
-  width: 100%;
-}
-
-/********** Large devices only **********/
-@media (min-width: 992px) {
-  #p1, #p2, #p3 {
-    float: left;
-    width: 32%;
-    }
-}
-
-/********** Medium devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-  #p1, #p2, #p3{
-    float: left;
-  }
-  #p1 {
-    width: 48%;
-    }
-  #p2 {
-    width: 48%;
-  }
-  #p3 {
-    width: 97%;
-  }
-}
-
-@media (max-width: 767px) {
-  #p1, #p2, #p3 {
-    float: left;
-    width: 99%;
-    }
+    width: 100%;
 }
 
 div#container {
-  position: relative;
+    position: relative;
+}
+
+#header-nav {
+    background-color: #2aabd2;
+    border-radius: 0;
+    border: 0;
+}
+
+#nav-list a {
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background: #E7E7E7;
 }
