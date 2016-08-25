@@ -24,11 +24,6 @@ h1 {
 .row {
     width: 100%;
 }
-
-div#container {
-    position: relative;
-}
-
 #header-nav {
     background-color: #2aabd2;
     border-radius: 0;
