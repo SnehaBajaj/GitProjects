@@ -24,19 +24,10 @@ h1 {
 .row {
     width: 100%;
 }
-
-div#container {
-    position: relative;
-}
-
 #header-nav {
     background-color: #2aabd2;
     border-radius: 0;
     border: 0;
-}
-
-#nav-list a {
-    text-align: center;
 }
 
 #nav-list a:hover {
